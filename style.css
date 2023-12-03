@@ -101,6 +101,10 @@
 
 /* responsive */
 @media screen and (max-width: 650px) {
+  .container {
+  background: url('assets/images/background-pattern-mobile.svg') no-repeat, var(--light-pink);
+  background-position: 0% 0%;
+}
   .container .app .header svg {
     width: 25px;
     height: 26px;
